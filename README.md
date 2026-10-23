@@ -1,8 +1,8 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
+* Autor: Javier Portugal
+* Título corto del trabajo:  Tarjeta Entrenadora para Microcontrolador
 * Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
 * Cursada: OCT-NOV-DIC 2026
 

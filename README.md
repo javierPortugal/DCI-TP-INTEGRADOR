@@ -3,7 +3,7 @@ Este repositorio contiene el trabajo práctico final para la asignatura de Dise�
 
 * Autor: Javier Portugal
 * Título corto del trabajo:  Tarjeta de Desarrollo para Microcontrolador
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Descripción:  El objetivo es contar con una tarjeta de desarrollo simple para el microcontrolador STM32F103. La funcion de la PCB es contener los elementos mínimos para trabajar con el microcontrolador mencionado así como el acceso a los puertos y contar con algunos elementos de esperimentación como LEDs e interruptores con el fin de poder verificar los programas que se cargen al microcontrolador.
 * Cursada: OCT-NOV-DIC 2026
 
 

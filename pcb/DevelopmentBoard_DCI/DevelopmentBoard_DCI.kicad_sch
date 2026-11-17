@@ -3460,6 +3460,18 @@
 		)
 		(uuid "3d8c7993-378f-41ca-a908-90c02630fb0e")
 	)
+	(text "USB and Power \nInterface"
+		(exclude_from_sim no)
+		(at 270.002 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "437e17ae-c7ac-42c3-a273-739030688443")
+	)
 	(text "Notes:"
 		(exclude_from_sim no)
 		(at 26.67 68.834 0)
@@ -3529,6 +3541,18 @@
 			)
 		)
 		(uuid "b324c850-eb42-4509-9e17-c444e680ab04")
+	)
+	(text "Proggraming Interface"
+		(exclude_from_sim no)
+		(at 268.986 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "ec270a4b-525f-4ee9-ada1-e6871fafff19")
 	)
 	(junction
 		(at 204.47 57.15)

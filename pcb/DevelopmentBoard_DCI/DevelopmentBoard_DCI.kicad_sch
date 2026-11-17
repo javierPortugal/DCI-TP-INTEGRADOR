@@ -3436,6 +3436,30 @@
 		)
 		(uuid "13a146fd-f52c-482e-bb7a-0f72f02b3cba")
 	)
+	(text "Bootloader Switch"
+		(exclude_from_sim no)
+		(at 160.782 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "17c77c49-c18f-41b5-a0c5-409296b6e514")
+	)
+	(text "USART1 Interface"
+		(exclude_from_sim no)
+		(at 160.274 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "3d8c7993-378f-41ca-a908-90c02630fb0e")
+	)
 	(text "Notes:"
 		(exclude_from_sim no)
 		(at 30.48 68.834 0)
@@ -3459,6 +3483,18 @@
 			)
 		)
 		(uuid "737a5aa2-91fc-40e4-b4b3-1eae38ff40bc")
+	)
+	(text "I2C Interface"
+		(exclude_from_sim no)
+		(at 162.306 134.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "7df78e77-07de-474d-96ae-acd1d2edbea4")
 	)
 	(text "2.- Minimun value for C1 and C2 (tantalum capacitors) is 22 uf."
 		(exclude_from_sim no)

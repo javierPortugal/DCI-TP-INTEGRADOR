@@ -9076,6 +9076,16 @@
 		)
 		(uuid "9202877d-4849-4582-aa2e-fa659990ee10")
 	)
+	(label "BOOT0"
+		(at 222.25 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9624d996-1ad7-4c77-aeeb-67945e9e50e1")
+	)
 	(label "PortA_Pin_1"
 		(at 354.33 165.1 90)
 		(effects
@@ -9579,54 +9589,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "SW-1"
-		(shape output)
-		(at 219.71 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c048bbb4-b8bf-41a9-b377-15c937b379d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.282 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SW-1"
-		(shape input)
-		(at 219.71 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c052498c-62e2-4298-b340-b8d3741ba556")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.138 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)

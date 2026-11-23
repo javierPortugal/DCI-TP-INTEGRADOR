@@ -8496,16 +8496,6 @@
 		)
 		(uuid "fe2be2f7-ebdb-4df7-be8d-8e4a523a6001")
 	)
-	(label "USB_D+"
-		(at 351.79 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "009cf0cc-05e1-4cad-868e-862e4e2fe534")
-	)
 	(label "PortB_Pin15"
 		(at 203.2 147.32 0)
 		(effects
@@ -8555,6 +8545,16 @@
 			(justify left bottom)
 		)
 		(uuid "123744f2-2909-4756-af80-e544c044be65")
+	)
+	(label "USB_D+"
+		(at 344.17 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1323d3fa-a7b6-470c-8c49-290ead1beffc")
 	)
 	(label "PortA_Pin_14"
 		(at 314.96 124.46 0)
@@ -9136,16 +9136,6 @@
 		)
 		(uuid "9fedec2a-73c5-422d-b4e4-0cc602e4479e")
 	)
-	(label "USB_D-"
-		(at 351.79 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4aec8b2-65b6-4a3a-9ada-57e5709bce4b")
-	)
 	(label "PortB_Pin9"
 		(at 203.2 132.08 0)
 		(effects
@@ -9245,6 +9235,16 @@
 			(justify left bottom)
 		)
 		(uuid "bac429fa-2f45-412f-916e-e9a98fc7d472")
+	)
+	(label "USB_D-"
+		(at 344.17 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb2c6076-10b8-4a13-b88b-9f59f27720d2")
 	)
 	(label "BOOT0"
 		(at 218.44 86.36 180)

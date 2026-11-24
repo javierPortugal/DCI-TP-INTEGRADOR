@@ -5019,6 +5019,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -6658,6 +6773,16 @@
 			(type default)
 		)
 		(uuid "180eba52-8302-4197-b10c-9a5f30d705f1")
+	)
+	(wire
+		(pts
+			(xy 26.67 36.83) (xy 26.67 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188da536-3833-4f49-b60c-b4db40cbb196")
 	)
 	(wire
 		(pts
@@ -8461,6 +8586,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 46.99) (xy 35.56 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15c1c65-5448-43cf-b868-3b7b8c349947")
+	)
+	(wire
+		(pts
 			(xy 196.85 130.81) (xy 182.88 130.81)
 		)
 		(stroke
@@ -9989,10 +10124,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "13d99ec7-de2b-492f-ab79-0bc94aee21e9")
 		(property "Reference" "U2"
-			(at 253.6033 154.94 0)
+			(at 260.35 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10003,7 +10137,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8Tx"
-			(at 253.6033 157.48 0)
+			(at 255.27 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10694,7 +10828,7 @@
 		(dnp no)
 		(uuid "2f06c875-13c9-4430-9c96-4ec1a7fd4a92")
 		(property "Reference" "FB1"
-			(at 286.512 50.038 90)
+			(at 276.86 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10703,8 +10837,8 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
-			(at 284.48 46.99 90)
+		(property "Value" "120R"
+			(at 276.86 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11219,6 +11353,17 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 50.8 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
 			(at 50.8 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15218,6 +15363,84 @@
 			(project "DevelopmentBoard_DCI"
 				(path "/068fe729-9519-426d-9217-2ebd10c617bd"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 26.67 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7a5b2f2-f4be-409c-b2c8-ce9e8d628f62")
+		(property "Reference" "#FLG01"
+			(at 26.67 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 26.67 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77ed3bec-3502-4801-b320-8f188af784c8")
+		)
+		(instances
+			(project "DevelopmentBoard_DCI"
+				(path "/068fe729-9519-426d-9217-2ebd10c617bd"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

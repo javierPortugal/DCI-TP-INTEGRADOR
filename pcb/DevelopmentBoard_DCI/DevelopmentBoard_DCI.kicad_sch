@@ -13188,7 +13188,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "Green"
 			(at 75.2475 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
